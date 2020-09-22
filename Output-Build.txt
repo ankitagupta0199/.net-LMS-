@@ -1,0 +1,3 @@
+﻿------ Rebuild All started: Project: libraryManagement, Configuration: Debug x86 ------
+  libraryManagement -> C:\Users\doual core\Documents\Visual Studio 2010\Projects\libraryManagement\libraryManagement\bin\Debug\libraryManagement.exe
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{536B2C48-C12A-4386-8BB1-57E6C353ABC6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>libraryManagement</RootNamespace>
+    <AssemblyName>libraryManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add book to library.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add book to library.Designer.cs">
+      <DependentUpon>add book to library.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_password.Designer.cs">
+      <DependentUpon>Change_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forget_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forget_password.Designer.cs">
+      <DependentUpon>Forget_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="issue_Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="issue_Search.Designer.cs">
+      <DependentUpon>issue_Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Return a Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return a Book.Designer.cs">
+      <DependentUpon>Return a Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="return_Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="return_Search.Designer.cs">
+      <DependentUpon>return_Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rules.Designer.cs">
+      <DependentUpon>Rules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="search book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="search book.Designer.cs">
+      <DependentUpon>search book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="issue a book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="issue a book.Designer.cs">
+      <DependentUpon>issue a book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="miniiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>miniiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="next.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="next.Designer.cs">
+      <DependentUpon>next.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registration.Designer.cs">
+      <DependentUpon>registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="remove a book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="remove a book.Designer.cs">
+      <DependentUpon>remove a book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="start.Designer.cs">
+      <DependentUpon>start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view all book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view all book.Designer.cs">
+      <DependentUpon>view all book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view issue book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view issue book.Designer.cs">
+      <DependentUpon>view issue book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view return book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view return book.Designer.cs">
+      <DependentUpon>view return book.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add book to library.resx">
+      <DependentUpon>add book to library.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_password.resx">
+      <DependentUpon>Change_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forget_password.resx">
+      <DependentUpon>Forget_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="issue a book.resx">
+      <DependentUpon>issue a book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="issue_Search.resx">
+      <DependentUpon>issue_Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="next.resx">
+      <DependentUpon>next.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="registration.resx">
+      <DependentUpon>registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="remove a book.resx">
+      <DependentUpon>remove a book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Return a Book.resx">
+      <DependentUpon>Return a Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="return_Search.resx">
+      <DependentUpon>return_Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rules.resx">
+      <DependentUpon>Rules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search book.resx">
+      <DependentUpon>search book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start.resx">
+      <DependentUpon>start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view all book.resx">
+      <DependentUpon>view all book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view issue book.resx">
+      <DependentUpon>view issue book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view return book.resx">
+      <DependentUpon>view return book.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="miniiDataSet.xsc">
+      <DependentUpon>miniiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="miniiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>miniiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="miniiDataSet.xss">
+      <DependentUpon>miniiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
